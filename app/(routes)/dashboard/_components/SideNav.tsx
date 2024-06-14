@@ -16,7 +16,7 @@ function SideNav() {
   const[activeTeam,setActiveTeam]=useState<TEAM>();
 const createFile=useMutation(api.files.createFile);
 const convex=useConvex();
-const [totalFiles,setTotalFiles]=useState()<Number>;
+const [totalFiles,setTotalFiles]=useState<Number>();
 
 const {fileList_,setFileList_}=useContext(FileListContext)
 
