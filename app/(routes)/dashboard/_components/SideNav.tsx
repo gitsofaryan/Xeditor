@@ -24,7 +24,7 @@ useEffect(()=>{
   activeTeam && getFiles()
 }
 ,[activeTeam])
- const onFileCreate = (fileName:String) => {
+ const onFileCreate = (fileName:string) => {
     console.log(fileName)
     createFile({
       fileName: fileName,
