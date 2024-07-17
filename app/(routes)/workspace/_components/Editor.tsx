@@ -5,6 +5,9 @@ import React, { useRef, useEffect, useState } from 'react'
 import EditorJS from '@editorjs/editorjs';
 // @ts-ignore
 
+import { ToolConstructable } from '@editorjs/editorjs';
+// @ts-ignore
+
 import Header from '@editorjs/header';
 // @ts-ignore
 import List from "@editorjs/list";
@@ -34,6 +37,7 @@ import { text } from 'stream/consumers';
 import { useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { toast } from 'sonner';
+import { FILE } from '../../dashboard/_components/FileList';
 
 
 const rawDocument={

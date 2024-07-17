@@ -10,7 +10,7 @@ export default function Home() {
   const {user}=useKindeBrowserClient()
 
   useEffect(()=>{
-    console.log("--".user)
+    
   },[user])
   return (
 
