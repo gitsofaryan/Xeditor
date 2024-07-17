@@ -25,7 +25,7 @@ const Canvas = ({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
   }
 
   return (
-    <div style={{ height: "700px" }}>
+    <div style={{ height: "950px" }}>
         {fileData&&<Excalidraw
         initialData={{
           elements:fileData?.whiteboard&&JSON.parse(fileData.whiteboard)
@@ -43,7 +43,7 @@ const Canvas = ({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
             <WelcomeScreen.Hints.ToolbarHint/>
             <WelcomeScreen.Center>
                     <WelcomeScreen.Center.Heading>
-                        Welcome to Excalidraw
+                        Welcome to Xeditor
                     </WelcomeScreen.Center.Heading>
                      <WelcomeScreen.Center.MenuItemHelp/>
                 </WelcomeScreen.Center>
